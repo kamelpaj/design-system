@@ -1,15 +1,36 @@
-@use '@style-dictionary/build/web/brand-1/tokens.scss' as brand-1;
+@use "@style-dictionary/build/web/brand-1/tokens.scss" as brand-1;
+@use "@style-dictionary/build/web/brand-2/tokens.scss" as brand-2;
+@use "@style-dictionary/build/web/brand-3/tokens.scss" as brand-3;
 
-.btn {
+.base {
   width: 200px;
   height: 50px;
   font-size: 20px;
-  border-radius: 5px;
   margin-top: 20px;
-  background: brand-1.$color-brand-primary;
-  color: white;
+  // color: white;
   border: none;
+}
+
+.brand-1 {
+  border-radius: brand-1.$button-border-radius;
+  background: brand-1.$color-action-primary;
   &:hover {
-    background: rgb(228, 49, 49);
+    background: brand-1.$color-action-secondary;
+  }
+}
+
+.brand-2 {
+  border-radius: brand-2.$button-border-radius;
+  background: brand-2.$color-action-primary;
+  &:hover {
+    background: brand-2.$color-action-secondary;
+  }
+}
+
+.brand-3 {
+  border-radius: brand-3.$button-border-radius;
+  background: brand-3.$color-action-primary;
+  &:hover {
+    background: brand-3.$color-action-secondary;
   }
 }

@@ -20,6 +20,13 @@ module.exports = {
               "../../../packages/acme-core/"
             ),
           },
+          {
+            find: "@style-dictionary",
+            replacement: path.resolve(
+              __dirname,
+              "../../../packages/style-dictionary/"
+            ),
+          },
         ],
       },
     };

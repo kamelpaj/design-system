@@ -1,0 +1,15 @@
+@use '@style-dictionary/build/web/brand-1/tokens.scss' as brand-1;
+
+.btn {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: brand-1.$color-brand-primary;
+  color: white;
+  border: none;
+  &:hover {
+    background: rgb(228, 49, 49);
+  }
+}

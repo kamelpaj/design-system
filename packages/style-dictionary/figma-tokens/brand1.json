@@ -1,6 +1,30 @@
 {
+  "brand1": {
+    "main": {
+      "value": "#1D388B",
+      "type": "color"
+    },
+    "women": {
+      "value": "#007DC5",
+      "type": "color"
+    },
+    "men": {
+      "value": "#11255A",
+      "type": "color"
+    },
+    "men-border": {
+      "value": "#FEDB00",
+      "type": "color"
+    },
+    "button": {
+      "value": "4px",
+      "type": "borderRadius"
+    }
+  },
   "$themes": [],
   "$metadata": {
-    "tokenSetOrder": []
+    "tokenSetOrder": [
+      "brand1"
+    ]
   }
 }

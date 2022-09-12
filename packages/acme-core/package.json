@@ -30,6 +30,7 @@
     "access": "public"
   },
   "dependencies": {
-    "classnames": "^2.3.1"
+    "classnames": "^2.3.1",
+    "react-icons": "^4.4.0"
   }
 }

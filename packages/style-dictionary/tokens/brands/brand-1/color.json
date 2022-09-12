@@ -2,7 +2,11 @@
   "color": {
     "brand": {
       "primary": { "value": "#3B5998" },
-      "secondary": { "value": "#4267B2" }
+      "secondary": { "value": "#4267B2" },
+      "main": { "value": "#1D388B" },
+      "women": { "value": "#007DC5" },
+      "men": { "value": "#11255A" },
+      "familyCarer": { "value": "#00ABBD" }
     }
   }
 }

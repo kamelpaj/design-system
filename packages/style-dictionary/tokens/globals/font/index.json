@@ -1,8 +1,8 @@
 {
   "font": {
     "family": {
-      "headers": { "value": "Montserrat" },
-      "base": { "value": "Montserrat" }
+      "headers": { "value": "Inter" },
+      "base": { "value": "Inter" }
     }
   }
 }

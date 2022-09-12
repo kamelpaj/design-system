@@ -1,18 +1,47 @@
 @use "@style-dictionary/build/web/brand-1/tokens.scss" as brand-1;
 @use "@style-dictionary/build/web/brand-2/tokens.scss" as brand-2;
 @use "@style-dictionary/build/web/brand-3/tokens.scss" as brand-3;
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+
+
 
 .base {
-  width: 200px;
-  height: 50px;
-  font-size: 20px;
-  margin-top: 20px;
-  // color: white;
-  border: none;
+  font-family: brand-1.$font-family-base;
+  font-size: 19px;
+  border-radius: brand-1.$button-border-radius;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 8px;
+
+  position: relative;
+  width: 163px;
+  height: 44px;
+
+  background: #000000;
+  border-radius: 4px;
+  border: 0;
+  
+}
+
+.main {
+  background: brand-1.$color-brand-main;
+}
+.women {
+  background: brand-1.$color-brand-women;
+}
+.men {
+  background: brand-1.$color-brand-men;
+}
+.familyCarer {
+  background: brand-1.$color-brand-family-carer;
 }
 
 .brand-1 {
-  border-radius: brand-1.$button-border-radius;
   background: brand-1.$color-action-primary;
   &:hover {
     background: brand-1.$color-action-secondary;

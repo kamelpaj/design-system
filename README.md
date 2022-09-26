@@ -1,6 +1,7 @@
-# Turborepo Design System Starter
+# Design System
+The purpose of this repo is to explore the collaboration of developer <--> designer workflow. It contains a very crude design system and explores various ways of syncing design tokens to Figma. It's a little bit messy at this points since I'm, together with designer collegues, am exploring various ways of working with a single source of truth for design tokens. Some times the tokens are stores in here, some times in Figma and some times in a Google Sheet. Will update the documentation as we go.
 
-This guide explains how to use a React design system starter powered by:
+It is powered by:
 
 - 🏎 [Turborepo](https://turborepo.org) — High-performance build system for Monorepos
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
@@ -17,13 +18,11 @@ As well as a few others tools preconfigured:
 
 ## Getting Started
 
-Clone the design system example locally or [from GitHub](https://github.com/vercel/turborepo/tree/main/examples/design-system):
+Clone this repo then:
 
 ```bash
-npx degit vercel/turborepo/examples/design-system design-system
 cd design-system
 yarn install
-git init . && git add . && git commit -m "Init"
 ```
 
 ### Useful Commands
@@ -49,6 +48,7 @@ This Turborepo includes the following packages and applications:
 - `packages/@acme/utils`: Shared React utilities
 - `packages/@acme/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
 - `packages/eslint-preset-acme`: ESLint preset
+- `packages/style-dictionary`: Design tokens and [style-dictionary](https://amzn.github.io/style-dictionary/#/) builders/helpers.
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Yarn Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-W` workspaces flag with `yarn add`.
 

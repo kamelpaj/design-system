@@ -7,7 +7,7 @@ It is powered by:
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
 - 🛠 [Tsup](https://github.com/egoist/tsup) — TypeScript bundler powered by esbuild
 - 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
-- 🦄 [Style Dictionary](https://amzn.github.io/style-dictionary/#/) - Compile design tokens in JSON to SCSS, Android XML and iOS Objective-C header file
+- 🦄 [Style Dictionary](https://amzn.github.io/style-dictionary/#/) — Compile design tokens in JSON to SCSS, Android XML and iOS Objective-C header file
 
 As well as a few others tools preconfigured:
 
